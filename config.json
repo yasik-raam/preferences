@@ -1,0 +1,22 @@
+{
+    "secret": "clinicalaide-token",
+    "refreshTokenSecret": "clinicalaide-refresh-token",
+    "port": 4000,
+    "tokenLife": 900,
+    "refreshTokenLife": 86400,
+   
+    "headers" : {
+        "Content-Type": "application/x-www-form-urlencoded"
+    },
+   
+    "headers_oidc": {
+            "Accept": "application/json+fhir",
+            "Content-Type": "application/json+fhir"
+        },
+    "openIdUrl":{
+        "url":""
+    },
+    "client_id":"829302717389674993",
+    "client_secret":"829302717389674993",
+    "wellKnownConfig":"https://azlor005.dxchealthlab.io/OIDCPortal/connect/well-known/openid-configuration"
+}
